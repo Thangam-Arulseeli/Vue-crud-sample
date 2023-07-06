@@ -1,7 +1,8 @@
 import axios from "axios";
 export class ContactService{
-    static serverURL = `http://localhost:9001`;
-    
+    //static serverURL = `http://localhost:9001`;
+    static serverURL = `https://vue-json-contact-mgr1.onrender.com`;
+
     static getAllContacts(){
        // let dataURL = `${this.serverURL}/contacts`;
        let dataURL = this.serverURL+"/contacts";
